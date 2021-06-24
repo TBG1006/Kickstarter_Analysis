@@ -16,7 +16,7 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 ## Instructions
 
-![Kickstarter Table](Images/FullTable.png)
+![Kickstarter Table](FullTable.png)
 
 Using the Excel table provided, modify and analyze the data of 4,000 past Kickstarter projects as you attempt to uncover some market trends.
 
@@ -30,13 +30,13 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
 
   * Create two new columns, one called `Category` at Q and another called `Sub-Category` at R, which use formulas to split the `Category and Sub-Category` column into two parts.
 
-  ![Category Stats](Images/CategoryStats.png)
+  ![Category Stats](CategoryStats.png)
 
   * Create a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
 
   * Create a stacked column pivot chart that can be filtered by country based on the table you have created.
 
-  ![Subcategory Stats](Images/SubcategoryStats.png)
+  ![Subcategory Stats](SubcategoryStats.png)
 
   * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
 
@@ -48,7 +48,7 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
 
   * Create a new column named `Date Ended Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `deadline` into Excel's date format.
 
-  ![Outcomes Based on Launch Date](Images/LaunchDateOutcomes.png)
+  ![Outcomes Based on Launch Date](LaunchDateOutcomes.png)
 
   * Create a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.
 
@@ -88,7 +88,7 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
   * 45000 to 49999
   * Greater than or equal to 50000
 
-  ![Goal Outcomes](Images/GoalOutcomes.png)
+  ![Goal Outcomes](GoalOutcomes.png)
 
 * Using the `COUNTIFS()` formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
 
@@ -104,7 +104,7 @@ For those looking for an additional challenge, you will evaluate the number of b
 
 * Create a new worksheet in your workbook, and create a column each for the number of backers of successful campaigns and unsuccessful campaigns.
 
-  ![Images/backers01.png](Images/backers01.png)
+  ![backers01.png](backers01.png)
 
 * Use Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
 
